@@ -31,7 +31,7 @@ public final class tamgiac {
     }
     public void kiemtra(){
        if((a+b>c) && (a+c>b) && (b+c > a)){
-           System.out.println("nhap dung :");
+           System.out.println("nhap dung : ");
            tinhchuvi();
            tinhdientich();
        }
@@ -48,9 +48,9 @@ public final class tamgiac {
     }
    
     public void tinhdientich(){
-        int p = (a + b + c)/2 ;
-        int s ;
-        s = (int) sqrt(p*(p-a)*(p-b)*(p-c));
+        float p = (a + b + c)/2 ;
+        float s ;
+        s = (float) Math.sqrt(p*(p-a)*(p-b)*(p-c));
         System.out.println("dien tich la :" + s);
     }
 }
