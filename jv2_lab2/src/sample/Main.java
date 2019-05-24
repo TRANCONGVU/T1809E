@@ -6,18 +6,25 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+import java.util.HashSet;
+
 public class Main extends Application {
 
-    @Override
-    public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("student.fxml"));
-        primaryStage.setTitle("Hello World");
-        primaryStage.setScene(new Scene(root, 587, 600));
-        primaryStage.show();
-    }
+    public static HashSet<String> studentList = new HashSet<>();
 
+    public static Stage mainStage;
 
     public static void main(String[] args) {
         launch(args);
+    }
+
+
+    @Override
+    public void start(Stage primaryStage) throws Exception{
+        mainStage = primaryStage;
+        Parent root = FXMLLoader.load(getClass().getResource("addSv.fxml"));
+        primaryStage.setTitle("Them sinh vien");
+        primaryStage.setScene(new Scene(root,600,400));
+        primaryStage.show();
     }
 }
