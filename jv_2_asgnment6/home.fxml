@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="jv_2_asgnment5.Home" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="461.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button onAction="#login" layoutX="84.0" layoutY="63.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="399.0" text="Đăng nhập" />
+      <Button onAction="#register" layoutX="84.0" layoutY="130.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="399.0" text="Register" />
+      <Button onAction="#list" layoutX="82.0" layoutY="207.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="399.0" text="List" />
+      <Button onAction="#exit" layoutX="82.0" layoutY="294.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="399.0" text="EXit" />
+   </children>
+</Pane>
