@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="CountDown.Controller" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="338.0" prefWidth="541.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="m" layoutX="97.0" layoutY="150.0" prefHeight="68.0" prefWidth="149.0" />
+      <TextField fx:id="s" layoutX="300.0" layoutY="150.0" prefHeight="68.0" prefWidth="149.0" />
+      <Button onAction="#run" layoutX="400.0" layoutY="150.0" prefHeight="50.0" prefWidth="100.0" />
+   </children>
+</Pane>
